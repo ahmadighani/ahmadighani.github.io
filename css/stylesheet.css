@@ -1,0 +1,549 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, a, article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section {
+    /* Cancel out some differences between browser defaults */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* LAYOUT */
+
+#header {
+	width: 65%;
+	margin: 0 auto;
+}
+
+.main-content {
+	display: flex;
+	width: 70%;
+	margin: 0 auto;
+}
+
+main {
+	width: 60%;
+}
+
+sidebar {
+	width: 40%;
+	margin-left: 5rem;
+}
+
+sidebar p {
+	margin-top: 1rem;
+	margin-bottom: 0.7rem;
+	width: 60%;
+}
+
+footer ul {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	margin-top: 3rem;
+}
+
+/* TYPOGRAPHY */
+
+
+body {
+	overflow-x: hidden;
+}
+
+
+
+nav ul {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 2rem;
+}
+
+nav ul, footer ul {
+	font-family: "Alégre Sans", "Helvetica Neue", "Open Sans", sans-serif;
+	height: 4rem;
+	text-align: center;
+	margin-top: 0.2rem;
+	
+}
+
+
+#header{
+	display: flex;
+	margin-bottom: 0.7rem;
+	margin-top: 0.6rem;
+}
+
+header h1 {
+	font-size: 1.6rem;
+	/*display: inline-block; */
+	margin-top: 0.6rem;
+}
+#address {
+	margin-left: 54%;
+}
+
+
+.one-font-type {
+	font-family: "Century Gothic","Apple Gothic","URW Gothic L",sans-serif;
+}
+
+nav ul li, footer ul li {
+	list-style-type: none;
+	margin: auto;
+	font-weight: bold;
+	font-size: 1.1rem;
+	text-transform: uppercase;
+}
+
+main {
+	margin-bottom: 2rem;
+}
+
+main p {
+	margin-bottom: 1.4rem;
+}
+
+main p, sidebar p {
+	line-height: 1.4rem;
+}
+
+
+.index {
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 1.7rem;
+	padding-bottom: 2rem;
+	padding-top: 1rem;
+}
+
+
+.card h5 {
+	padding-bottom: 0.7rem;
+}
+
+
+.blog-headings {
+	font-size: 1.7rem;
+	font-family: 'Rajdhani', sans-serif;
+}
+
+
+p {
+	font-size: 1.1rem;
+}
+
+main p, sidebar p {
+	line-height: 1.7rem;
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+#latest-news {
+	margin-bottom: 1rem;
+	font-size: 1.5rem;
+}
+
+h3 {
+	font-size: 0.9rem;
+}
+
+
+#read-more, #read-more a {
+	margin-bottom: 2rem;
+	color: rgb(185, 111, 129);
+}
+
+
+#welcome-text {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+
+	/* registration form. */
+#heading-style{
+	opacity: 0.75;
+	font-size: 2.25rem;
+	margin-bottom: 0.2rem;
+
+
+}
+
+input {
+  padding: 10px;
+  font-size: inherit;
+  margin-bottom: 0.7rem;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 0.4rem red;
+}
+
+form {
+	width: 29.5rem;
+	margin-bottom: 2rem;
+	}
+
+.button{
+  width: 18rem;
+  opacity: 0.9;
+  border: none;	
+}
+
+
+input[type="text"]{
+  display: flex;
+  width: 61%;
+  border: 0.0625rem solid steelblue;
+  border-radius: 0.4rem;
+}
+
+input[type="email"]{
+  display: block;
+  width: 61%;
+  border: 1px solid steelblue;}
+
+
+#social-media {
+	font-size: 2.5rem;
+	margin-bottom: 0.6rem;
+}
+
+#social-links {
+	font-size: 1.5rem;
+}
+#social-links li, a {
+	list-style-type: none;
+	text-decoration: none;
+}
+
+#social-links a:hover {
+	color: rgb(185,111,129)
+}
+
+
+
+footer a{
+	text-decoration: none;
+}
+
+
+/* COLOUR Scheme */
+
+
+nav ul,  footer ul {
+	background: rgba(107,107,107,1.00);
+	color: white;
+}
+
+nav a:hover , footer a:hover {
+	color: yellow;
+	text-decoration: underline;
+}
+
+
+nav ul li a, footer ul li a {
+	color: white;
+}
+
+
+.red-colour {
+	color: rgb(185, 111, 129);
+}
+
+
+#heading-style {
+	color: rgb(185, 111, 129);
+}
+
+
+.button:focus, .button:hover {
+  color: yellow;
+  background-color: rgb(185,111,129);	
+}
+
+.button {
+	background-color: dimgray;
+    color: white;
+}
+
+input:focus {
+    background-color: white;}
+
+
+::placeholder {          /* This is for the form placeholders text*/
+	color: rgb(185, 111, 129);
+}
+
+
+/* IMG AND MEDIA */
+
+#home-page-image {
+	width: 100%;
+	/*height: 33rem;*/
+}
+
+img {
+	width: 100%;
+	/*height: 34rem;*/
+	
+}
+
+#video {
+	width: 100%;
+}
+
+
+
+#video {
+	width: 100%;
+	margin-top: 2rem;
+	
+}
+
+
+
+/* Responsive layer @Media queries*/
+
+
+@media only screen and (max-width: 65rem) {
+	
+	body {
+		max-width: 100%;
+	}
+	
+	nav ul, footer ul {
+		flex-direction: column;
+		padding: 0;
+		height: 100%;	
+	}
+	
+	nav li, footer li{
+		padding: 0.6em;
+		margin: 0;
+		border-top: 0.1rem dotted orange;
+		padding-bottom: 1rem;
+	}
+	
+    .main-content {
+        flex-direction: column;
+		width: 100%;
+		padding-left: 1.4rem;
+		padding-right: 1.4rem;
+    }
+    
+    main {
+       	width: 100%;
+		flex-wrap: wrap;
+    }
+    
+ 
+	sidebar {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;	
+	}
+	
+	sidebar p {
+		width: 100%;
+		
+	}
+	
+	#mobile-display {
+		display: flex;
+	}
+	
+	input {
+		height: 3rem;
+		font-size: 1rem;
+	}
+	
+	form {
+		width: 163%;
+		
+		
+	}
+	
+	#heading-style {
+		font-size: 210%;
+	}
+	
+	.button {
+		font-size: 1.7rem;
+	}
+	
+	
+	#social-mobile {
+		width: 50%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	
+	#social-mobile ul {
+		/*margin-left: 5rem;*/
+	}
+	
+	::placeholder {
+		font-size: 1rem;
+		margin-top: auto;
+		margin-bottom: auto;
+	}
+	
+	#welcome-text {
+		text-align: center;
+	}
+	
+}
+	
+@media only screen and (max-width: 50rem){
+	
+	body {
+		max-width: 100%;
+	}
+	
+	#mobile-display {
+		flex-direction: column;
+	}
+	
+	sidebar p {
+		width: 100%;
+	}
+	
+	.button {
+		width: 61%;
+	}
+	
+	input {
+		height: 15%;
+	}
+		
+}
+
+@media only screen and (max-width: 47rem){
+	
+	body {
+		max-width: 100%;
+	}
+	#social-mobile h1 {
+		font-size: 2rem;
+	}
+	
+	sidebar p {
+		width: 100%;
+	}
+	
+	#social-media {
+		text-align: center;
+	}
+}
+	
+@media only screen and (max-width: 37rem){
+	
+	body {
+		max-width: 100%;
+	}
+	
+	#social-mobile h1 {
+		font-size: 1.5rem;
+	}
+	
+	sidebar p {
+		width: 100%;
+	}
+	
+	
+}
+
+@media only screen and (max-width: 29rem){
+	
+	#address h2 {
+		visibility: collapse;	
+	}
+	
+	header h1 {
+		margin-left: 6.0rem;
+	}
+}
+
+@media only screen and (max-width: 28rem){
+	
+	body {
+		max-width: 100%;
+	}
+	
+	
+	#social-mobile h1 {
+		font-size: 1.4rem;
+	}
+	
+	
+	#social-links{
+		font-size: 1.5rem;
+	}	
+}
+
+
+@media only screen and (max-width: 26.3125rem){
+	
+	body {
+		max-width: 100%;
+	}
+	
+	header h1 {
+		margin-left: 2.6rem;
+	}
+	
+	#mobile-display {
+		width: 100%;
+	}
+
+	
+	#social-mobile h1 {
+		font-size: 0.9rem;
+		margin-bottom: 0.1rem;
+	}
+	
+	#social-links {
+		font-size: 0.9rem;
+		margin-left: 2rem;
+	}
+	
+	sidebar p {
+		width: 100%;
+	}
+	
+	
+}
+
+@media only screen and (max-width: 18.375rem){
+	
+	body {
+		overflow-x: hidden;
+	}
+	
+	
+	header h1 {
+		margin-left: 3.2rem;
+	}
+	
+	form h1 {
+		width: 50%;
+	}
+	
+	#heading-style {
+		font-size: 1.3rem;;
+	}
+	
+	sidebar p {
+		width: 90%;
+	}
+	
+
+}
+

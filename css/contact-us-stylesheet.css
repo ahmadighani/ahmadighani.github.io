@@ -1,0 +1,86 @@
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 0.75rem; /* Some padding */  
+    border: 0.0625rem solid #ccc; /* Gray border */
+    border-radius: 0.25rem; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 0.375rem; /* Add a top margin */
+    margin-bottom: 1rem; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.75rem 1.25rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  
+	box-shadow: 0 0 0.4rem red;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 0.3125rem;
+    background-color: #f2f2f2;
+    padding: 1.25rem;
+	overflow: hidden;
+	
+	
+}
+
+
+#fname, #lname {
+	width: 100%;
+	
+}
+
+#country:focus, #subject:focus {
+	border: 0.0625rem solid steelblue;
+	box-shadow: 0 0 0.4rem red;
+}
+
+
+
+/* Media Queries */
+
+
+@media only screen and (max-width: 89.6875rem) {
+	body {
+		max-width: 100%;
+	}
+	
+	.container {
+		padding: 1.25rem;
+	}
+	
+}
+
+
+@media only screen and (max-width: 65rem) {
+	body {
+		max-width: 100%;
+	}
+	
+	#fname, #lname {
+		width: 61%;
+	}
+	
+	#country {
+		width: 61%;
+		display: flex;
+	}
+	
+	#subject {
+		width: 61%;
+		display: flex;
+	}
+	
+}
